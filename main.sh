@@ -30,10 +30,10 @@ _do_sh_completion() {
             sub_opts="deploy get_deployed_solutions get_applied_solutions_info init_and_apply_settings init remove_solutions run"
             ;;
         ct|certificatetool)
-            sub_opts="encrypt_config decrypt_config"
+            sub_opts="run list add remove"
             ;;
         enc)
-            sub_opts="run list add remove"
+            sub_opts="encrypt_config decrypt_config"
             ;;
         images)
             sub_opts="remove"
